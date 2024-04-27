@@ -276,6 +276,15 @@ footer .contenido{
     flex-direction: column;
     
 }
+.timing { 
+    width: 100%;
+    height: 80vh;
+    background-image: url(./img-editables/timingpc.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 footer img {
     width: 60px;
 }
