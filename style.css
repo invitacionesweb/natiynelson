@@ -313,14 +313,12 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image:url(./img-editables/timingpc.jpg);
+    background-position: center;
+    background-size: cover;
 
 }
- .timing IMG {
-     width: 100VW;
-     padding: 0;
-     max-width: 540px;
-     margin: 0;
- }
+
 .dresscode {
     width: 100%;
     color: var(--color-secundario);
@@ -391,13 +389,18 @@ footer img {
         max-width: 260px;
     }
     .timing {
+        width: 100%;
+        height: 110VH;
+        background-image:url(./img-editables/TIMING.png);
+        background-position: center;
+        background-size: cover;
+        padding: 0;
+        margin: auto;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
     }
-    .timing img{
-        max-width: 100vw;
-    }
+   
     .galeria2 {
         width: 100%;
         display: grid;
@@ -429,5 +432,10 @@ footer img {
        width: 100%;
    }
     
-
+   .rsvp {
+    height: 50vh;
+    
+}
+.information-bloque .boton{
+    font-size: 1.1em;
 }
