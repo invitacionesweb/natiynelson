@@ -209,7 +209,20 @@ main p {
     padding: 40px 0 40px 0 ;
     background-color: var(--color-principal);
   
+  
 
+}
+.box {
+    background-image: url(./img-editables/BOX.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1 {
+    background-image: url(./img-editables/BOX1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .information-bloque {
     width: 100%;
@@ -435,7 +448,4 @@ footer img {
    .rsvp {
     height: 50vh;
     
-}
-.information-bloque .boton{
-    font-size: 1.1em;
 }
